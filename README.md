@@ -6,6 +6,12 @@ CodeGrid検索 for [Alfred 2](http://www.alfredapp.com/)
 [Download](https://github.com/pxgrid/alfred-codegrid-workflow/raw/master/CodeGrid%E6%A4%9C%E7%B4%A2.alfredworkflow)
 
 
+## インストール
+
+[CodeGrid検索.alfredworkflow](https://github.com/pxgrid/alfred-codegrid-workflow/raw/master/CodeGrid%E6%A4%9C%E7%B4%A2.alfredworkflow)をダウンロードし、ダブルクリックするとAlfredに追加されます。
+※ワークフローを利用するためには、Powerpackが必要です。
+
+
 ## コマンド
 
 ### cg 検索したいキーワード
