@@ -3,7 +3,7 @@ CodeGrid検索 for [Alfred 2](http://www.alfredapp.com/)
 
 [CodeGrid](https://app.codegrid.net/)の記事を検索できるAlfredのワークフローです。
 
-[Download]()
+[Download](https://github.com/pxgrid/alfred-codegrid-workflow/raw/master/CodeGrid%E6%A4%9C%E7%B4%A2.alfredworkflow)
 
 
 ## コマンド
