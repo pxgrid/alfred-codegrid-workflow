@@ -29,12 +29,17 @@ foreach($dataList as $data) {
 	$wf_url = "https://app.codegrid.net/entry/".urldecode($data->slug);
 	$wf_title = urldecode($data->title);
 	$wf_description = urldecode($data->description);
+	$wf_icon = 'icon.png';
+	# 無料記事の場合はアイコンを変更する
+	if ($data->expose == true) {
+		$wf_icon = 'icon-unlock.png';
+	}
 	$wf->result(
 		time(),
 		$wf_url,
 		$wf_title,
 		$wf_description,
-		'icon.png'
+		$wf_icon
 	);
 }
 
