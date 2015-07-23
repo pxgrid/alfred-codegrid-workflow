@@ -1,12 +1,14 @@
-CodeGrid検索 for [Alfred 2](http://www.alfredapp.com/)
+CodeGrid Suggest for [Alfred 2](http://www.alfredapp.com/)
 ========================
 
-[CodeGrid](https://app.codegrid.net/)の記事を検索できるAlfredのワークフローです。
+[CodeGrid](https://app.codegrid.net/)の記事を全文検索できるAlfredのワークフローです。
 
 
 ## インストール
 
-[CodeGrid検索.alfredworkflow](https://github.com/pxgrid/alfred-codegrid-workflow/raw/master/CodeGrid%E6%A4%9C%E7%B4%A2.alfredworkflow)をダウンロードし、ダブルクリックするとAlfredに追加されます。
+以前のバージョンの「CodeGrid検索」を削除してからお使いください。
+
+[CodeGrid Suggest.alfredworkflow](https://github.com/pxgrid/alfred-codegrid-workflow/raw/master/CodeGrid%E6%A4%9C%E7%B4%A2.alfredworkflow)をダウンロードし、ダブルクリックするとAlfredに追加されます。  
 ※ワークフローを利用するためには、Powerpackが必要です。
 
 
@@ -14,7 +16,7 @@ CodeGrid検索 for [Alfred 2](http://www.alfredapp.com/)
 
 ### cg 検索したいキーワード
 
-![](screenshots/ss_1.png)
+![](screenshots/ss.png)
 
 [CodeGrid](https://app.codegrid.net/)内の全ての記事から、任意のキーワードで検索することができます。  
 アルファベットの大文字小文字は区別しません  
