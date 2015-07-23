@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.geckotang.search-codegrid</string>
-	<key>category</key>
-	<string>Internet</string>
+	<string>user.workflow.codegrid-workflow</string>
 	<key>connections</key>
 	<dict>
-		<key>32CDA920-EA03-438F-8322-E30CAF2A7AAB</key>
+		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6D78FB66-C968-4E66-91B6-8B8A63FE4059</string>
+				<string>20ECBE09-E9A3-4A60-B3FC-A6987FC6F680</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,15 +19,52 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>@GeckoTang</string>
+	<string>GeckoTang</string>
 	<key>description</key>
-	<string>CodeGridの記事を検索できます。</string>
+	<string>Get CodeGrid Search Suggestions</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>CodeGrid検索</string>
+	<string>CodeGrid Suggest</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>36</integer>
+				<key>keyword</key>
+				<string>cg</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please Wait...</string>
+				<key>script</key>
+				<string>ruby ./main.rb "{query}"</string>
+				<key>subtext</key>
+				<string>Get CodeGrid Search Suggestions...</string>
+				<key>title</key>
+				<string>CodeGrid</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>21557827-8003-42B7-A042-16D4C9278FEC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -43,37 +78,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>6D78FB66-C968-4E66-91B6-8B8A63FE4059</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>cg</string>
-				<key>runningsubtext</key>
-				<string>データベースを更新しています...</string>
-				<key>script</key>
-				<string>$query = "{query}";
-require_once("cd.php");</string>
-				<key>subtext</key>
-				<string>CodeGridのタイトル、概要、タグから検索できます。</string>
-				<key>title</key>
-				<string>CodeGridの記事から検索</string>
-				<key>type</key>
-				<integer>1</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>32CDA920-EA03-438F-8322-E30CAF2A7AAB</string>
+			<string>20ECBE09-E9A3-4A60-B3FC-A6987FC6F680</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -82,18 +87,18 @@ require_once("cd.php");</string>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>32CDA920-EA03-438F-8322-E30CAF2A7AAB</key>
+		<key>20ECBE09-E9A3-4A60-B3FC-A6987FC6F680</key>
 		<dict>
 			<key>ypos</key>
-			<real>10</real>
+			<real>250</real>
 		</dict>
-		<key>6D78FB66-C968-4E66-91B6-8B8A63FE4059</key>
+		<key>21557827-8003-42B7-A042-16D4C9278FEC</key>
 		<dict>
 			<key>ypos</key>
-			<real>10</real>
+			<real>250</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>https://github.com/pxgrid/alfred-codegrid-workflow</string>
+	<string>http://github.com/geckotang</string>
 </dict>
 </plist>
